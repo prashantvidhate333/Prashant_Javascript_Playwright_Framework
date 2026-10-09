@@ -47,8 +47,8 @@ const env = {
     error: process.env.ERROR || fileUsers.error || "error_user",
     visual: process.env.VISUAL || fileUsers.visual || "visual_user",
   },
-  //   headless: process.env.HEADLESS !== "true", // headless
-  headless: process.env.HEADLESS === "true", // headed mode
+  headless: process.env.HEADLESS !== "true", // headless
+  // headless: process.env.HEADLESS === "true", // headed mode
 
   logLevel: process.env.LOG_LEVEL || "info",
 };

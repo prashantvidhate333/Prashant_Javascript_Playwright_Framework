@@ -17,5 +17,6 @@ test.describe("Inventory Module", () => {
       TITLES.SWAGlABS,
     );
     await inventeryPageObj.verifyProductCount(6);
+    console.log("Added Code in gitHub");
   });
 });
