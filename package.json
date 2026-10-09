@@ -1,0 +1,25 @@
+{
+  "name": "playwright_framework",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:dev": "cross-env ENV=dev npx playwright test",
+    "test:qa": "cross-env ENV=qa npx playwright test",
+    "test:uat": "cross-env ENV=uat npx playwright test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "@types/node": "^26.6.2",
+    "allure-commandline": "^2.46.1",
+    "allure-js-commons": "^3.13.0",
+    "allure-playwright": "^3.13.0",
+    "cross-env": "^10.1.0",
+    "dotenv": "^18.0.3",
+    "winston": "^3.19.0"
+  }
+}
